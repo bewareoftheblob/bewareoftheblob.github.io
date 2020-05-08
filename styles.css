@@ -1,0 +1,65 @@
+#video-section {
+  background-image: url('blob-background.png');
+  background-size: cover;
+  min-height: 200px;
+
+  padding: 60px 0 40px;
+}
+
+#video-section iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+#game-description {
+  background-color: #ccf0d5;
+}
+
+#game-description .image img{
+  height: 200px;
+}
+
+#audio-crew {
+  background-color: #ffeeaa;
+  min-height: 500px;
+  position: relative;
+}
+
+#guitar {
+  position: absolute;
+  left: 50px;
+  top: 25%;
+  width: 300px;
+}
+
+#dev-team {
+  background-color: #aed1e6;
+  position: relative;
+
+  padding: 60px 0;
+}
+
+#spokes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#dev-team h1 {
+  margin-bottom: 40px;
+}
+
+#dev-team .dev-team-row {
+  margin: 30px 0;
+}
+
+.dev-team-portrait {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  background-color: #afe0d7;
+  padding: 40px 0;
+}
