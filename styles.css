@@ -6,6 +6,23 @@
   padding: 60px 0 40px;
 }
 
+h1, h2, h3, a.navbar-brand {
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p, li {
+  font-family: 'Oswald', sans-serif;
+}
+
 #video-section iframe {
   margin: 0 auto;
   display: block;
@@ -15,11 +32,15 @@
   background-color: #ccf0d5;
 }
 
+#game-description p {
+  font-size: 2rem;
+}
+
 #game-description .image img{
   height: 200px;
 }
 
-#audio-crew {
+#ost {
   background-color: #ffeeaa;
   min-height: 500px;
   position: relative;
@@ -27,16 +48,17 @@
 
 #guitar {
   position: absolute;
-  left: 50px;
-  top: 25%;
+  left: 0;
   width: 300px;
+}
+
+#game-description, #ost, #dev-team {
+  padding: 60px 0;
 }
 
 #dev-team {
   background-color: #aed1e6;
   position: relative;
-
-  padding: 60px 0;
 }
 
 #spokes {
