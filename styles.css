@@ -47,7 +47,7 @@ p, li {
 }
 
 #game-description .image img{
-  height: 200px;
+  max-width: 530px;
 }
 
 #ost {
@@ -61,7 +61,7 @@ p, li {
   border: none;
   background-color: inherit;
   padding-left: 0;
-  
+
 }
 #guitar {
   position: absolute;
