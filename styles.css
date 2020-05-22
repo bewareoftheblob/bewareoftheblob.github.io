@@ -1,12 +1,16 @@
 #video-section {
   background-image: url('blob-background.png');
-  background-size: cover;
+  background-size: contain;
   min-height: 200px;
 
   padding: 60px 0 40px;
 }
 
-h1, h2, h3, a.navbar-brand {
+#title-image {
+  max-width: 200px;
+}
+
+h1, h2, h3, h4, h5, a.navbar-brand {
   font-family: 'Jost', sans-serif;
   text-transform: uppercase;
 }
@@ -28,6 +32,12 @@ p, li {
   display: block;
 }
 
+#steam {
+  width: 80%;
+
+  height: 200px;
+}
+
 #game-description {
   background-color: #ccf0d5;
 }
@@ -46,6 +56,13 @@ p, li {
   position: relative;
 }
 
+.list-group-item {
+  font-size: 2.5rem;
+  border: none;
+  background-color: inherit;
+  padding-left: 0;
+  
+}
 #guitar {
   position: absolute;
   left: 0;
