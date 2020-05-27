@@ -113,3 +113,7 @@ footer {
   background-color: #afe0d7;
   padding: 40px 0;
 }
+
+#nav-icon {
+  max-width: 80px;
+}
