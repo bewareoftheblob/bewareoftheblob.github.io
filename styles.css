@@ -1,5 +1,5 @@
 #video-section {
-  background-image: url('blob-background.png');
+  background-image: url('faded-background.png');
   background-size: contain;
   min-height: 200px;
 
@@ -7,7 +7,7 @@
 }
 
 #title-image {
-  max-width: 200px;
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, a.navbar-brand {
@@ -23,6 +23,10 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p, li {
   font-family: 'Oswald', sans-serif;
 }
@@ -32,13 +36,17 @@ p, li {
   display: block;
 }
 
+#steam-row {
+  margin-top: 30px;
+}
+
 #steam {
   width: 80%;
 
   height: 200px;
 }
 
-#game-description {
+#game-description, nav {
   background-color: #ccf0d5;
 }
 
@@ -67,6 +75,7 @@ p, li {
   position: absolute;
   left: 0;
   width: 300px;
+  top: 100px;
 }
 
 #game-description, #ost, #dev-team {
@@ -78,10 +87,12 @@ p, li {
   position: relative;
 }
 
-#spokes {
+#dev-team-icon {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50px;
+  left: 50px;
+  height: 200px;
+  width: 200px;
 }
 
 #dev-team h1 {
